@@ -252,7 +252,6 @@ Now we can serve our clients:
 
 ```rust
 // ...
-
 let (stream, _address) = listener_result.expect("failed to connect client");
 let state = state.clone();
 spawn(async move {
@@ -265,7 +264,6 @@ spawn(async move {
     // produce for the transport using default producer configuration.
     producer.produce(transport, Configuration::default());
 });
-
 // ...
 ```
 
