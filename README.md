@@ -349,7 +349,6 @@ async fn main() {
         println!("Received message: {message}");
     }
 }
-
 ```
 
 ## Limitations
