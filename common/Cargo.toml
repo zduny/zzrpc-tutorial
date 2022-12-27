@@ -1,0 +1,13 @@
+[package]
+name = "common"
+version = "0.1.0"
+authors = ["zduny <dzduniak@gmail.com>"]
+edition = "2021"
+description = "zzrpc tutorial common functionality"
+license = "Apache-2.0"
+repository = "https://github.com/zduny/zzrpc-tutorial"
+
+[dependencies]
+mezzenger = "0.1.2"
+serde = { version = "1.0.150", features = ["derive"] } 
+zzrpc = { path = "../../web-framework/zzrpc/zzrpc" }
