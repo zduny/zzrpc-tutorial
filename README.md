@@ -248,7 +248,7 @@ async fn main() {
 
 ### Step 3c - serving
 
-Now we can serve for our clients:
+Now we can serve our clients:
 
 ```rust
 // ...
