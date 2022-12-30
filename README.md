@@ -297,7 +297,7 @@ async fn main() {
     let consumer = Consumer::consume(transport, Configuration::default());
 
 
-    // now we can make out first request.
+    // now we can make our first request.
     consumer.hello_world().await.expect("failed to call method");
 
     // another request, this time with return value.
