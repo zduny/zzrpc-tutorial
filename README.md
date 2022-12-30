@@ -54,7 +54,7 @@ zzrpc = "0.1.1"
 
 For your server/clients you'll also need some [`kodec`](https://crates.io/crates/kodec), 
 some `mezzenger` transport implementation 
-(here: [mezzenger-tcp](https://crates.io/crates/mezzenger-tcp)), 
+(here: [`mezzenger-tcp`](https://crates.io/crates/mezzenger-tcp)), 
 [`futures`](https://crates.io/crates/futures) and on native server/client 
 [`tokio`](https://crates.io/crates/tokio):
 
