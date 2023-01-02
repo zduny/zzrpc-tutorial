@@ -10,4 +10,4 @@ repository = "https://github.com/zduny/zzrpc-tutorial"
 [dependencies]
 mezzenger = "0.1.2"
 serde = { version = "1.0.150", features = ["derive"] } 
-zzrpc = "0.1.1"
+zzrpc = "0.1.2"

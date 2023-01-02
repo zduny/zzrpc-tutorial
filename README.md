@@ -47,9 +47,9 @@ Add [`mezzenger`](https://crates.io/crates/mezzenger), [`serde`](https://crates.
 
 [dependencies]
 # ...
-mezzenger = "0.1.2"
+mezzenger = "0.1.3"
 serde = { version = "1.0.150", features = ["derive"] } 
-zzrpc = "0.1.1"
+zzrpc = "0.1.2"
 ```
 
 For your server/clients you'll also need some [`kodec`](https://crates.io/crates/kodec), 
@@ -64,11 +64,11 @@ some `mezzenger` transport implementation
 
 [dependencies]
 # ...
-mezzenger = "0.1.2"
+mezzenger = "0.1.3"
 serde = { version = "1.0.150", features = ["derive"] } 
-zzrpc = "0.1.1"
+zzrpc = "0.1.2"
 kodec = { version = "0.1.0", features = ["binary"] }
-mezzenger-tcp = "0.1.1"
+mezzenger-tcp = "0.1.2"
 futures = "0.3.25"
 tokio = { version = "1.23.0", features = ["full"] } # only when targeting native platforms
 tokio-stream = { version = "0.1.11", features = ["sync"] } # optional but useful when creating stream responses 
@@ -82,11 +82,11 @@ If you followed **Step 0** then add `common` to your client/server crate depende
 [dependencies]
 # ...
 common = { path = "../common" }
-mezzenger = "0.1.2"
+mezzenger = "0.1.3"
 serde = { version = "1.0.150", features = ["derive"] } 
-zzrpc = "0.1.1"
+zzrpc = "0.1.2"
 kodec = { version = "0.1.0", features = ["binary"] }
-mezzenger-tcp = "0.1.1"
+mezzenger-tcp = "0.1.2"
 futures = "0.3.25"
 tokio = { version = "1.23.0", features = ["full"] } # only when targeting native platforms
 tokio-stream = { version = "0.1.11", features = ["sync"] } # optional but useful when creating stream responses 
